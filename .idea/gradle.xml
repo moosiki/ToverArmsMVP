@@ -10,7 +10,13 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/CommonRes" />
             <option value="$PROJECT_DIR$/CommonSDK" />
+            <option value="$PROJECT_DIR$/CommonService" />
+            <option value="$PROJECT_DIR$/CompanyInfo" />
+            <option value="$PROJECT_DIR$/Core" />
+            <option value="$PROJECT_DIR$/Login" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/module_cost" />
+            <option value="$PROJECT_DIR$/module_reportform" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -1,0 +1,5 @@
+<resources>
+    <string name="login_module_name">Login</string>
+    <string name="login_dialog_text">登录中...</string>
+    <string name="login_activity_auto_login">自动登陆</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="cost_module_name">module_cost</string>
+    <string name="cost_mainform_title">成本</string>
+</resources>

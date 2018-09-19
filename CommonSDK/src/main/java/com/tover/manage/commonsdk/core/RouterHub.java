@@ -29,42 +29,44 @@ public interface RouterHub {
      */
     String APP = "/app";//宿主 App 组件
     String LOGIN = "/login";//登录组件
-    String GANK = "/gank";//干货集中营组件
-    String GOLD = "/gold";//稀土掘金组件
+    String REPORT = "/report"; //报表组件
+    String COST = "/cost"; //成本组件
+    String COMPANYINFO = "/companyInfo"; //成本组件
 
     /**
-     * 服务组件, 用于给每个组件暴露特有的服务
+     * 服务组件, 用于给每个组件暴露特有的公共服务
      */
     String SERVICE = "/service";
-
 
     /**
      * 宿主 App 分组
      */
-    String APP_SPLASHACTIVITY = APP + "/SplashActivity";
+    String APP_LAUNCHACTIVITY = APP + "/LaunchActivity";
+    String APP_SERVICE_APPINFOSERVICE = APP + SERVICE + "/AppInfoService";
     String APP_MAINACTIVITY = APP + "/MainActivity";
 
-
     /**
-     * 知乎分组
+     * 登录组件分组
      */
     String LOGIN_SERVICE_LOGININFOSERVICE = LOGIN + SERVICE + "/LoginInfoService";
 
     String LOGIN_HOMEACTIVITY = LOGIN + "/HomeActivity";
     String LOGIN_DETAILACTIVITY = LOGIN + "/DetailActivity";
 
-    /**
-     * 干货集中营分组
-     */
-    String GANK_SERVICE_GANKINFOSERVICE = GANK + SERVICE + "/GankInfoService";
-
-    String GANK_HOMEACTIVITY = GANK + "/HomeActivity";
+    String LOGIN_PRESENTER = LOGIN + "/Presenter";
 
     /**
-     * 稀土掘金分组
+     * 报表组件分组
      */
-    String GOLD_SERVICE_GOLDINFOSERVICE = GOLD + SERVICE + "/GoldInfoService";
+    String REPORT_ACTIVITY = REPORT + "/Activity";
+    String REPORT_MAINFRAGMENT = REPORT + "/MainFragment";
 
-    String GOLD_HOMEACTIVITY = GOLD + "/HomeActivity";
-    String GOLD_DETAILACTIVITY = GOLD + "/DetailActivity";
+    /**
+     * 成本组件分组
+     */
+    String COST_ACTIVITY = COST + "/Activity";
+    String COST_MAINFRAGMENT = COST + "/MainFragment";
+
+
+
 }

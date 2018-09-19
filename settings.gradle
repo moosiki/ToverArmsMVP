@@ -1,1 +1,1 @@
-include ':app', ':CommonSDK', ':CommonRes'
+include ':app', ':CommonSDK', ':CommonRes', ':Login', ':CommonService', ':module_reportform', ':module_cost', ':CompanyInfo', ':Core'

@@ -1,0 +1,5 @@
+<resources>
+    <string name="report_mudule_name">module_reportform</string>
+    <string name="report_mainform_title">总表</string>
+    <string name="report_toolbar_area_cq">重庆</string>
+</resources>

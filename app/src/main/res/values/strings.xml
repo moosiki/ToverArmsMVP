@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ToverBAM</string>
+    <string name="main_menu_report_form">报表</string>
+    <string name="main_menu_cost">成本</string>
+    <string name="main_menu_gathering">收款</string>
+    <string name="main_menu_function">功能</string>
 </resources>

@@ -2,8 +2,10 @@ package com.tover.manage.commonsdk.utils;
 
 import android.app.Activity;
 import android.content.Context;
+import android.support.v4.app.Fragment;
 
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.tover.manage.commonsdk.core.RouterHub;
 
 /**
  * ================================================
@@ -39,4 +41,15 @@ public class Utils {
     public static void navigation(Context context, String path) {
         ARouter.getInstance().build(path).navigation(context);
     }
+
+    /**
+     * Author by Mryang.
+     * Date on 2018/9/15.
+     * Description 使用ARouter路由到其他组件的Fragment
+     */
+    public static Fragment naviFragment(String path){
+        return  (Fragment) ARouter.getInstance().build(path).navigation();
+    }
+
+
 }
